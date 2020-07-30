@@ -1,0 +1,22 @@
++ change button forground and display menu_button_preview_fore [every 3 items created]
++duplicate emtpy buttons  + layout
++ port / land org for objects
++onclick listner from Additem to edit content 
++edit database from excel like view with pics etc
++dialog box for customers 
++long click to re arrange menu 
++ last thing in customer's menu items+total 
+
++ in inventory show items destroyed 
+
+----------------------------------------------------------------
+ 
+the number/amount of items u want on menu
+red warners showing missing feilds
+menu frames customizable in settings
+at overview show time/sales 
+test button foreground change
+add call waiter kitchen admin page 
+
+------ 
+the program opens version of kitchen /waiter/admin/acountant automatically according to password

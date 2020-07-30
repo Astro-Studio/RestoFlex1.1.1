@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverviewActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@null"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        app:backgroundTint="#065CB8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/buttongraph7"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="520dp"
+        android:background="@drawable/button_background"
+        android:contextClickable="false"
+        android:cursorVisible="true"
+        android:foregroundTint="#03A9F4"
+        android:shadowColor="@color/colorAccent"
+        android:text="Employees"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@drawable/button_text_color"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/graph12"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="179dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:text="4.5"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/graph12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="179dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="500dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:text="40000SD"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/graph8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttongraph6"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/button_background"
+        android:contextClickable="false"
+        android:cursorVisible="true"
+        android:foregroundTint="#03A9F4"
+        android:shadowColor="@color/colorAccent"
+        android:text="This Week"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@drawable/button_text_color"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/graph9"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="179dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:text="4.5"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/graph11"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttongraph5"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="520dp"
+        android:background="@drawable/button_background"
+        android:contextClickable="false"
+        android:cursorVisible="true"
+        android:foregroundTint="#03A9F4"
+        android:shadowColor="@color/colorAccent"
+        android:text="Ratings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@drawable/button_text_color"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/graph11"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttongraph1"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/button_background"
+        android:contextClickable="false"
+        android:cursorVisible="true"
+        android:foregroundTint="#03A9F4"
+        android:shadowColor="@color/colorAccent"
+        android:text="Today"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@drawable/button_text_color"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/graph"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttongraph2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="512dp"
+        android:background="@drawable/button_background"
+        android:contextClickable="false"
+        android:cursorVisible="true"
+        android:foregroundTint="#03A9F4"
+        android:shadowColor="@color/colorAccent"
+        android:text="General"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@drawable/button_text_color"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/graph10"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttongraph4"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/button_background"
+        android:contextClickable="false"
+        android:cursorVisible="true"
+        android:foregroundTint="#03A9F4"
+        android:shadowColor="@color/colorAccent"
+        android:text="Yesterday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@drawable/button_text_color"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/graph8"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph12"
+        android:layout_width="420dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/graph11" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph11"
+        android:layout_width="420dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/graph10" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph9"
+        android:layout_width="420dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/graph8" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="420dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph10"
+        android:layout_width="420dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/graph"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph8"
+        android:layout_width="420dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/graph" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="179dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="16dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:text="40000SD"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/graph"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="179dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="500dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:text="40000SD"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/graph9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="179dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:text="40000SD"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/graph10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

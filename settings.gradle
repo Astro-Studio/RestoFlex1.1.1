@@ -1,0 +1,2 @@
+include ':app', ':javaluator-3.0.1', ':GraphView-master'
+rootProject.name='RestoFlex'

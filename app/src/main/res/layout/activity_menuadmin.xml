@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    tools:context=".menuadmin"
+    tools:targetApi="m">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="981dp"
+            android:layout_height="1406dp"
+            android:background="@drawable/imageedit_4_3380992220"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="969dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-6dp"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginBottom="-21dp"
+            android:background="@drawable/button_background"
+            android:text="+"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="70sp" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

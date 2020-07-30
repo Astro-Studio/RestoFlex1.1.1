@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pad_button_text_color"
+    android:backgroundTint="#FFFFFF"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:foregroundTint="#00BCD4"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="293dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bran125"
+        tools:srcCompat="@drawable/bran125" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="400dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:contextClickable="false"
+        android:cursorVisible="true"
+        android:foregroundTint="#03A9F4"
+        android:shadowColor="@color/colorAccent"
+        android:shape="ring"
+        android:text="Verify"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@drawable/button_text_color"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="137dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/fingerprinticon1234"
+        tools:srcCompat="@drawable/fingerprinticon1234" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="400dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="12dp"
+        android:background="#1B007FD4"
+        android:backgroundTint="#065CB8"
+        android:ems="10"
+        android:foreground="#1A5175BD"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#065CB8"
+        android:textColorHighlight="#0F0606"
+        android:textColorLink="#065CB8"
+        android:textDirection="anyRtl"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:text="Password" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="349dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Enter Your Password"
+        android:textColor="#065CB8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="349dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Or Fingerprint"
+        android:textColor="#0694B8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonlogin" />
+
+</android.support.constraint.ConstraintLayout>
